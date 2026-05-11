@@ -1,0 +1,65 @@
+body{
+background-color: black;
+color: aliceblue;
+}
+   
+
+strong{
+    color: #22D4FD
+}
+    /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Centralizar conteúdo do main */
+main {
+    display: flex;
+    flex-direction: column; /* organiza elementos em coluna */
+    justify-content: center; /* centraliza verticalmente */
+    align-items: center; /* centraliza horizontalmente */
+    height: 100vh; /* ocupa toda altura da tela */
+    text-align: center; /* centraliza o texto */
+    padding: 20px;
+    background-color: #000000; /* opcional, só pra ver melhor */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; /* espaço entre o título e o parágrafo */
+}
+
+p {
+    font-size: 1.2rem;
+    max-width: 600px; /* deixa o texto mais legível */
+    line-height: 1.5;
+    margin-bottom: 30px; /* espaço antes dos links */
+}
+
+a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
